@@ -1,38 +1,83 @@
-.App {
+
+.page {
+  width: 100%;
+  height: 100%;
+
+}
+.sidebar-icon {
+  position: absolute ;
+  top: 70px;
+  left: 20px;
+  z-index: 200;
+}
+.right-icon {
+  position: absolute ;
+  top: 40px;
+  right: 20px;
+  z-index: 200;
+
+  width: 200px;
+  background-color: rgb(255,255,255 , 0.8);
+  z-index: 200;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.right-icon h4 span {
+  font-weight: normal;
+}
+.map {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: green; */
+}
+
+.form {
   text-align: center;
+  width: 300px;
+  background-color: rgb(255,255,255 , 0.8);
+  z-index: 200;
+  padding: 20px 30px;
+  border-radius: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-heading {
+  font-weight: normal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form form {
+  width: 90%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form form input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.form form button {
+  padding: 10px 25px;
+  background-color: #50dae5;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 18px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formControl {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.formControl .searchbox {
+  z-index: 2000000;
+  position: relative;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  height: 136px;
+  background-color: green;
+  border-radius: 5px;
+}
+.close-icon {
+  text-align: right !important;
 }
