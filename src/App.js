@@ -131,7 +131,7 @@ export default class App extends Component {
           <div className="sidebar-icon">
             {this.state.openForm === true ? (<div class="form">
               <div className="close-icon">
-                <img src={require('./assets/images/cancel.png')} onClick={() => {
+                <img alt="" src={require('./assets/images/cancel.png')} onClick={() => {
                   this.setState({ openForm: false })
                 }} width="30px" height="30px" />
               </div>
@@ -159,7 +159,7 @@ export default class App extends Component {
                 />
                 <button type="submit">Start</button>
               </form>
-            </div>) : (<img src={require('../src/assets/images/abc.png')} width="40px" height="40px" onClick={this.toggleSideBar} />
+            </div>) : (<img alt="" src={require('../src/assets/images/abc.png')} width="40px" height="40px" onClick={this.toggleSideBar} />
               )}
 
           </div>
