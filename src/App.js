@@ -37,7 +37,7 @@ export default class App extends Component {
         };
       },
       () => {
-        if (this.state.openForm == true) {
+        if (this.state.openForm === true) {
           this.initPlaceApiautocomepete();
           this.initPlaceApiautocomepeteto()
         }
@@ -129,7 +129,7 @@ export default class App extends Component {
         <div className="page">
        
           <div className="sidebar-icon">
-            {this.state.openForm == true ? (<div class="form">
+            {this.state.openForm === true ? (<div class="form">
               <div className="close-icon">
                 <img src={require('./assets/images/cancel.png')} onClick={() => {
                   this.setState({ openForm: false })
@@ -164,7 +164,7 @@ export default class App extends Component {
 
           </div>
           {
-            this.state.haveResponse == true ? (
+            this.state.haveResponse === true ? (
               <div className="right-icon">
                 <h4>Total Distance <span>{this.getMiles(this.state.Distance)} Miles</span></h4>
                 <h4>Total Time <span>{this.formateCalculatedTime(this.state.time)}</span></h4>
