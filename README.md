@@ -26,7 +26,7 @@ npm start
 
 ## Usage
 
-Once loaded, the site would look like the following:
+Once loaded, the user is greated with the following:
 
 ![Welcome page](https://github.com/AdmasKebede/FluxMarine/blob/main/src/intro_page.jpg?raw=True)
 
