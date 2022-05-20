@@ -26,6 +26,10 @@ npm start
 
 ## Usage
 
+Once loaded, the site would look like the following:
+
+![Welcome page](https://github.com/AdmasKebede/FluxMarine/blob/main/src/intro_page.jpg?raw=True)
+
 
 
 ## License
