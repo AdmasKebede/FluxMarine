@@ -30,6 +30,9 @@ Once loaded, the site would look like the following:
 
 ![Welcome page](https://github.com/AdmasKebede/FluxMarine/blob/main/src/intro_page.jpg?raw=True)
 
+By clicking over the option menue on the top left corner, we can fill the information needed for our route. From, to and the depth of our boat. By clicking start, a route will be generated between the two input fileds. 
+
+![route page](https://github.com/AdmasKebede/FluxMarine/blob/main/src/route_page.jpg?raw=True)
 
 
 ## License
