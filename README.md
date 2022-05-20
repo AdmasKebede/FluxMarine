@@ -34,7 +34,7 @@ By clicking over the option menue on the top left corner, we can fill the inform
 
 ![route page](https://github.com/AdmasKebede/FluxMarine/blob/main/src/route_page.jpg?raw=True)
 
-##Credits
+## Credits
 
 We want to thank Searoutes for giving us access to their API, FluxMarine for giving us the oportunity to work on this project, and Prof. Haehn for making this possible.
 
